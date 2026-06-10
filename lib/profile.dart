@@ -11,7 +11,9 @@ class _MyPageState extends State<MyPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(child: const Text('JIRANAN KOEDKLA 6712732121')),
+      body: Center(
+        child: Container(child: const Text('JIRANAN KOEDKLA 6712732121')),
+      ),
     );
   }
 }
